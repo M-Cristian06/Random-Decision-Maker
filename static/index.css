@@ -1,0 +1,83 @@
+body{
+background-color: rgb(42, 42, 42);
+color:rgb(90, 177, 253);
+
+}
+
+
+a {
+
+text-decoration: none;
+color: rgb(255, 255, 255);
+
+}
+
+a:hover {
+
+
+color: rgb(0, 137, 249);
+
+}
+
+
+
+.container{
+
+background-color: rgb(40, 40, 40);
+border-style: solid;
+border-color: rgb(58, 58, 58);
+border-width: 1px;
+justify-content: center;
+text-align: center;
+align-items: center;
+padding: 20px;
+
+}
+
+.btn{
+
+background-color: rgb(199, 199, 199);
+border-style: solid;
+border-radius: 5px;
+margin: 10px;
+border-width: 1px;
+font-size: 1rem;
+border-color: aliceblue;
+
+}
+
+.btn:hover{
+
+background-color: rgb(77, 77, 77);
+border-color: rgb(24, 24, 24);
+
+}
+
+
+
+.random_choice{
+
+color:brown;
+
+}
+
+.input-c{
+
+background-color: rgb(46, 46, 46);
+border-color: rgb(70, 70, 70);
+border-style: solid;
+color: rgb(255, 255, 255);
+}
+
+
+.choices{
+
+background-color: rgb(40, 40, 40);
+border-style: solid;
+border-color: rgb(58, 58, 58);
+border-width: 1px;
+justify-content: center;
+text-align: center;
+align-items: center;
+padding: 20px;
+}

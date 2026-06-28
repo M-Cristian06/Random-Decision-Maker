@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random-decision-maker</title>
+    <link href="{{ url_for('static', path='/index.css') }}" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Random-decision-maker</h1>
+        <p>Your Choices:</p>
+        {% for choice in choices %}
+        <span> | {{ choice }} |</span>
+        {% endfor %}
+        <form action="/" method="get">
+
+        <button type="submit" class="btn">RANDOM</button>
+        </form>
+
+        {% if random_choice %}
+        <p class="random_choice"><strong>{{ random_choice }} </strong></p>
+        {% endif %}
+
+
+        <p>You want to add another set of choices?<a href="/add_choices/"> ADD</a></p>
+
+
+
+    </div>
+
+
+
+</body>
+</html>
