@@ -16,26 +16,30 @@ A simple and intuitive web application designed to help users make quick decisio
 
 Clone the repository:
    ```bash
-   git clone [https://github.com/M-Cristian06/random-decision-maker.git](https://github.com/M-Cristian06/random-decision-maker.git) ```
+   git clone [https://github.com/M-Cristian06/random-decision-maker.git](https://github.com/M-Cristian06/random-decision-maker.git)
+ ```
 
 
 Navigate to the project directory:
 
 
 ``` bash 
-cd random-decision-maker```
+cd random-decision-maker
+```
 
 
 Install the required dependencies:
 
 ```bash 
-pip install fastapi uvicorn jinja2 ```
+pip install fastapi uvicorn jinja2
+```
 
 
 Start the local development server:
 
 ```bash 
-uvicorn main:app --reload```
+uvicorn main:app --reload
+```
 
 Open your browser and go to:
 
